@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>quiz</title>
+</head>
+<body>
+   <div class="banner-container" style="background-image: url('./img/bannerStreetFighter.jpg');">
+     <h1 class="title-banner">Street Fighter <span class="block ">Quiz</span></h1>
+   </div>
+
+   <div class="quiz-container">
+      <div class="quiz">
+        <h2 class="quiz-title">Street Fighter Quiz</h2>
+        <p data-js="question"  class="questions"></p>
+        <div data-js="character-photo"  class="character-photo" style="background-image: url(./img/Bison.webp);"></div>
+        <div data-js="alternatives"  class="questions-alternatives">
+        </div><!--questions-alternatives-->
+        <button data-js="next-button"  class="next-button">Next</button>
+      </div>
+   </div>
+   
+
+
+   <script src="quiz.js"></script>
+</body> 
+</html>

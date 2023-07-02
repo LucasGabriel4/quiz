@@ -1,0 +1,49 @@
+[
+    {
+        "question": "Qual é o nome desse personagem na franquia Street Fighter?",
+        "characterImage": "./img/Ryu.webp",
+        "answers": [
+            {"text": "Ryu", "correct": true},
+            {"text": "Ken", "correct": false},
+            {"text": "Vega", "correct": false},
+            {"text": "Guile", "correct": false}
+        ]
+
+    },
+
+    {
+        "question": "Qual é o nome desse personagem na franquia Street Fighter?",
+        "characterImage": "./img/vega.jfif",
+        "answers": [
+            {"text": "Cammy", "correct": false},
+            {"text": "Ken", "correct": false},
+            {"text": "Vega", "correct": true},
+            {"text": "Adon", "correct": false}
+        ]
+
+    },
+
+    {
+        "question": "Qual é o nome desse personagem na franquia Street Fighter?",
+        "characterImage": "./img/Balrog.webp",
+        "answers": [
+            {"text": "Balrog", "correct": true},
+            {"text": "Ken", "correct": false},
+            {"text": "Sagat", "correct": false},
+            {"text": "Mike Tyson", "correct": false}
+        ]
+
+    },
+
+    {
+        "question": "Qual é o nome desse personagem na franquia Street Fighter?",
+        "characterImage": "./img/Bison.webp",
+        "answers": [
+            {"text": "Rolento", "correct": false},
+            {"text": "Ken", "correct": false},
+            {"text": "Oni", "correct": false},
+            {"text": "Bison", "correct": true}
+        ]
+
+    }
+]

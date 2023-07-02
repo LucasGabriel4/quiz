@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-blue-950 h-[100vh];
+}
+
+.banner-container{
+    @apply w-full h-[300px] bg-gray-400  bg-cover bg-center;
+  
+}
+
+.title-banner{
+    @apply text-center pt-[100px] text-white text-[2.5rem] md:pt-[50px] md:text-[4.5rem] font-bold font-poppins;
+ 
+}
+
+.quiz-container{
+    @apply py-[60px] px-[10px] ;
+}
+
+.quiz{
+    @apply w-full p-[20px] pb-[80px]  max-w-[500px] min-h-[300px] mx-auto bg-white rounded-[10px];
+}
+
+
+.quiz-title{
+    @apply font-poppins font-bold text-sky-950 text-[1.25rem] after:content-[''] after:block after:w-[100%] after:h-[1px] after:bg-gray-400 after:mt-[10px];
+}
+
+.questions{
+    @apply mt-[10px] font-poppins font-medium text-sky-950;
+}
+
+.character-photo{
+    @apply w-[220px] h-[200px]  mx-auto bg-contain bg-center bg-no-repeat mt-[20px] hidden;
+}
+
+.questions-alternatives{
+    @apply mt-[20px];
+}
+
+.alternative{
+    @apply w-full h-[40px]  bg-gray-400 border text-[0.875rem] border-solid border-gray-600 bg-transparent rounded-[5px] text-left pl-[10px] hover:bg-blue-950 hover:text-white transition font-poppins font-medium;
+
+
+}
+
+
+.alternative:not(:nth-child(1)){
+    @apply mt-[15px]
+}
+
+.next-button{
+    @apply py-[7px] px-[25px] bg-blue-950 text-white absolute left-[50%] translate-x-[-50%] mt-[20px] font-poppins rounded-[5px];
+
+}
+
+
+.correct{
+    @apply bg-green-300 text-green-700;
+}
+
+.incorrect{
+    @apply bg-red-300 text-red-700;
+}
